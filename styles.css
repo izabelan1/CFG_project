@@ -25,3 +25,7 @@ h2 {
 .col-sm-4 p {
   font-size: 16px;
 }
+.footer-distributed button {
+	background-color: #ffc0b4;
+	border: 0px;
+}
