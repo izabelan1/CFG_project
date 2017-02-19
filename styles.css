@@ -26,8 +26,8 @@ h2 {
   font-size: 16px;
 }
 .footer-distributed button {
-	background-color: #ffc0b4;
-	border: 0px;
+  background-color: #ffc0b4;
+  border: 0px;
 }
 .social {
     margin: 0;
@@ -42,3 +42,11 @@ h2 {
     margin: 5px;
     list-style: none outside none;
     display: inline-block; 
+}
+.col-sm-4 img {
+    width: 250px;
+}
+
+
+
+
