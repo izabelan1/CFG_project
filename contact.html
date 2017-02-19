@@ -2,89 +2,108 @@
 <html>
 <head>
 	<title>Style Library</title>
-	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	 <link rel="stylesheet" type="text/css" href="styles.css">
-	  <!--load font awesome-->
-    <link   href = "font-awesome-4.7.0/css/font-awesome.min.css" rel = "stylesheet">
-<header>
-<h1> Style Library</h1>
-<h2>Snap, Share, Shop </h2>
-<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-    <div class="container-fluid">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!--load font awesome-->
+  <link   href = "font-awesome-4.7.0/css/font-awesome.min.css" rel = "stylesheet">
+  <header>
+    <h1> Style Library</h1>
+    <h2>Snap, Share, Shop </h2>
+    <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+      <div class="container-fluid">
         <div class="navbar-header"><a class="navbar-brand" href="#"></a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-            </button>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="index.html">Home</a>
-                </li>
-                <li><a href="about.html">About</a>
-                </li>
-                <li><a href="FAQs.html">FAQs</a>
-                </li>
-                <li><a href="contact.html">Share</a>
-                </li>
-            </ul>
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">Home</a>
+            </li>
+            <li><a href="about.html">About</a>
+            </li>
+            <li><a href="FAQs.html">FAQs</a>
+            </li>
+            <li><a href="contact.html">Share</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</div>     
-</header>
-<body>
-<div class="container">
-<div class="jumbotron">  
-<div class="row">
-<p>Share your outfits</p>
-<div class="bootstrap-iso">
- <div class="container-fluid">
-  <div class="row">
-   <div class="col-md-6 col-sm-6 col-xs-12">
-    <form method="post">
-     <div class="form-group ">
-      <label class="control-label " for="name">
-       Name to be displayed
-      </label>
-      <input class="form-control" id="name" name="name" type="text"/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label requiredField" for="email">
-       Email
-       <span class="asteriskField">
-        *
-       </span>
-      </label>
-      <input class="form-control" id="email" name="email" type="text"/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label " for="title">
-       Give your look a title
-      </label>
-      <input class="form-control" id="title" name="title" type="text"/>
-     </div>
-     <div class="form-group ">
-    <label class="control-label">Upload your photo</label>
-<input id="input-2" name="input2[]" type="file" class="file" multiple data-show-upload="false" data-show-caption="true">
-     </div>
-     <div class="form-group">
-      <div>
-       <button class="submit" name="submit" type="submit" onclick="myFunction()">Submit</button>
-<script>
-function myFunction() {
-    alert("Thanks for sharing your look!");
-}
-</script>
-       </button>
       </div>
-     </div>
-    </form>
-   </div>
-  </div>
- </div>
+    </div>     
+  </header>
+  <body>
+    <div class="container">
+      <div class="jumbotron">  
+        <div class="row">
+          <p>Share your outfits</p>
+          <div class="bootstrap-iso">
+           <div class="container-fluid">
+            <div class="row">
+             <div class="col-md-6 col-sm-6 col-xs-12">
+              <form method="post">
+               <div class="form-group ">
+                <label class="control-label " for="name">
+                 Name to be displayed
+               </label>
+               <input class="form-control" id="name" name="name" type="text"/>
+             </div>
+             <div class="form-group ">
+              <label class="control-label requiredField" for="email">
+               Email
+               <span class="asteriskField">
+                *
+              </span>
+            </label>
+            <input class="form-control" id="email" name="email" type="text"/>
+          </div>
+          <div class="form-group ">
+            <label class="control-label " for="title">
+             Give your look a title
+           </label>
+           <input class="form-control" id="title" name="title" type="text"/>
+         </div>
+         <div class="form-group ">
+          <label class="control-label">Upload your photo</label>
+          <input id="input-2" name="input2[]" type="file" class="file" multiple data-show-upload="false" data-show-caption="true">
+        </div>
+        <div class="form-group">
+          <div>
+           <button class="submit" name="submit" type="submit" onclick="myFunction()">Submit</button>
+           <script>
+            function myFunction() {
+              alert("Thanks for sharing your look!");
+            }
+          </script>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+</div>
 </div>
 </div> <!-- jumbotron -->
 </div> <!-- container -->
 </div>
 </div>
+<div class="container">
+  <div class="jumbotron">  
+    <div class="footer-distributed">
+      <p>Join our mailing list</p>
+      <form action="#" method="post">
+        <input type="text" name="email" placeholder="Email">
+        <button>Submit</button>
+      </form>
+    </div> 
+    <div class="social">
+      <ul>
+        <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-lg fa-pinterest"></i></a></li>
+        <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+      </ul>
+    </div>  
+  </div>
+</div>    
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
 </body>
 </html>
